@@ -29,9 +29,6 @@ class CardForm extends React.Component {
 
     componentDidMount() {
         this.createBraintreeClient(this.props.authKey);
-        this.setState({
-            useDeviceData: this.props.deviceData,
-        })
     }
 
     //-------------------------------------------------------------------------------
